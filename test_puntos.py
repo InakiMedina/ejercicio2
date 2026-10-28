@@ -16,3 +16,6 @@ def test_calcular_puntos_acepta_flotante():
 
 def test_viaje_menor_de_diez_minutos_no_da_puntos():
 	assert calcular_puntos(9, "martes") == 0
+
+def test_suma_un_punto_por_cada_diez_minutos_completos():
+	assert calcular_puntos(25.9, "martes") == 2
