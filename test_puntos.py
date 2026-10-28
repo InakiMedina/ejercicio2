@@ -35,4 +35,4 @@ def test_dia_mayor_que_siete_lanza_entrada_invalida():
 		calcular_puntos(10, 8)
 
 def test_calcular_puntos_redondea_hacia_abajo():
-	assert calcular_puntos(19.999, "miercoles") == 1
+	assert calcular_puntos(19.999, 3) == 1
