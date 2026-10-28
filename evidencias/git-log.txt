@@ -1,0 +1,17 @@
+987c518 test: created test with name (test_dia_mayor_que_siete_lanza_entrada_invalida) that passes (9 passed; validation already implemented)
+2a5805b green: created functionality to pass test with name (test_minutos_negativos_lanzan_entrada_invalida), all tests pass now
+fa04544 red: created test with name (test_minutos_negativos_lanzan_entrada_invalida) that results with (1 failed, 7 passed)
+8cd5aef green: created functionality to pass test with name (test_puntos_tienen_un_tope_de_veinte), all tests pass now
+d8e39ba red: created test with name (test_puntos_tienen_un_tope_de_veinte) that results with (1 failed, 6 passed)
+9a94291 green: created functionality to pass test with name (test_viaje_de_diez_minutos_en_sabado_duplica_puntos), all tests pass now
+98e12d7 red: created test with name (test_viaje_de_diez_minutos_en_sabado_duplica_puntos) that results with (1 failed, 5 passed)
+d89a01b green: created functionality to pass test with name (test_suma_un_punto_por_cada_diez_minutos_completos), all tests pass now
+2d508a4 red: created test with name (test_suma_un_punto_por_cada_diez_minutos_completos) that results with (1 failed, 4 passed)
+771688b green: created functionality to pass test with name (test_viaje_menor_de_diez_minutos_no_da_puntos), all tests pass now
+24aaca0 red: created test with name (test_viaje_menor_de_diez_minutos_no_da_puntos) that passes correctly due to default return 0
+d6c5b76 red: created test with name (test_calcular_puntos_acepta_flotante) that results with (#status)
+8fadf9a green: created functionality to pass test with name (test_calcular_puntos_falla_recibiendo_dia_not_as_string), all tests pass now
+2d4f5b7 red: created test with name (test_calcular_puntos_falla_recibiendo_dia_not_as_string) that results with (#status)
+c4bf89c refactor: changed test name from (test_calcular_puntos_falla_recibiendo_string) to (test_calcular_puntos_falla_recibiendo_puntos_as_string)
+6008064 green: created functionality to pass test with name (calcular_puntos), all tests pass now
+20e9e10 red: created test with name (test_calcular_puntos_falla_recibiendo_string) that results with (#status)

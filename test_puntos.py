@@ -33,3 +33,6 @@ def test_minutos_negativos_lanzan_entrada_invalida():
 def test_dia_mayor_que_siete_lanza_entrada_invalida():
 	with pytest.raises(ValueError, match="^entrada_invalida$"):
 		calcular_puntos(10, 8)
+
+def test_calcular_puntos_redondea_hacia_abajo():
+	assert calcular_puntos(19.999, "miercoles") == 1
