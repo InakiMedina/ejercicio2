@@ -19,3 +19,6 @@ def test_viaje_menor_de_diez_minutos_no_da_puntos():
 
 def test_suma_un_punto_por_cada_diez_minutos_completos():
 	assert calcular_puntos(25.9, "martes") == 2
+
+def test_viaje_de_diez_minutos_en_sabado_duplica_puntos():
+	assert calcular_puntos(10, "sábado") == 2
