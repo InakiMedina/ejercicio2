@@ -29,3 +29,7 @@ def test_puntos_tienen_un_tope_de_veinte():
 def test_minutos_negativos_lanzan_entrada_invalida():
 	with pytest.raises(ValueError, match="^entrada_invalida$"):
 		calcular_puntos(-1, 2)
+
+def test_dia_mayor_que_siete_lanza_entrada_invalida():
+	with pytest.raises(ValueError, match="^entrada_invalida$"):
+		calcular_puntos(10, 8)
