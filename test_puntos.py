@@ -22,3 +22,6 @@ def test_suma_un_punto_por_cada_diez_minutos_completos():
 
 def test_viaje_de_diez_minutos_en_sabado_duplica_puntos():
 	assert calcular_puntos(10, 6) == 2
+
+def test_puntos_tienen_un_tope_de_veinte():
+	assert calcular_puntos(210, 2) == 20
