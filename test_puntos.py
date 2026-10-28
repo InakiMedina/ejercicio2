@@ -25,3 +25,7 @@ def test_viaje_de_diez_minutos_en_sabado_duplica_puntos():
 
 def test_puntos_tienen_un_tope_de_veinte():
 	assert calcular_puntos(210, 2) == 20
+
+def test_minutos_negativos_lanzan_entrada_invalida():
+	with pytest.raises(ValueError, match="^entrada_invalida$"):
+		calcular_puntos(-1, 2)
