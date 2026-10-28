@@ -8,4 +8,4 @@ def calcular_puntos(minutos, dia_semana):
 	puntos = int(minutos // 10)
 	if dia_semana in (6, 7):
 		puntos *= 2
-	return puntos
+	return min(puntos, 20)
